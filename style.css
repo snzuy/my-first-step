@@ -1,0 +1,411 @@
+/*
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SEOUL MELLOW | Korean Cafe</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+            SEOUL MELLOW
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">HOME</a>
+                </li>
+
+                <li>
+                    <a href="#about">ABOUT</a>
+                </li>
+
+                <li>
+                    <a href="#menu">MENU</a>
+                </li>
+
+                <li>
+                    <a href="#gallery">GALLERY</a>
+                </li>
+
+                <li>
+                    <a href="#access">ACCESS</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             HOME
+        ========================== -->
+
+        <section id="home" class="main-visual">
+
+            <div class="main-visual-content">
+
+                <h1>
+                    SEOUL<br>MELLOW
+                </h1>
+
+                <p>
+                    A LITTLE CAFE FROM SEOUL
+                </p>
+
+                <a href="#menu" class="button">
+                    VIEW MENU
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section id="about">
+
+            <div class="section-title">
+
+                <span>ABOUT US</span>
+
+                <h2>
+                    Our Story
+                </h2>
+
+            </div>
+
+
+            <div class="about">
+
+
+                <div class="about-image">
+
+                    <img
+                        src="images/about.jpg"
+                        alt="SEOUL MELLOWの店内"
+                    >
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <h3>
+                        서울의 작은 골목에서
+                    </h3>
+
+                    <p>
+                        SEOUL MELLOWは、
+                        ソウルの小さな路地にあるカフェを
+                        イメージして生まれたお店です。
+                    </p>
+
+                    <p>
+                        韓国で出会ったお気に入りの味と、
+                        ゆっくり流れる時間を
+                        日本でも楽しんでほしい。
+                    </p>
+
+                    <p>
+                        そんな想いから、
+                        一杯のコーヒーとともに
+                        心地よい時間をお届けしています。
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             MENU
+        ========================== -->
+
+        <section id="menu" class="menu">
+
+            <div class="section-title">
+
+                <span>OUR MENU</span>
+
+                <h2>
+                    Menu
+                </h2>
+
+            </div>
+
+
+            <div class="menu-container">
+
+
+                <!-- MENU 01 -->
+
+                <div class="menu-card">
+
+                    <img
+                        src="images/menu-coffee.jpg"
+                        alt="韓国風カフェラテ"
+                    >
+
+                    <div class="menu-card-content">
+
+                        <h3>
+                            Seoul Latte
+                        </h3>
+
+                        <p>
+                            なめらかなミルクと
+                            深煎りコーヒー。
+                        </p>
+
+                        <span class="price">
+                            ¥650
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- MENU 02 -->
+
+                <div class="menu-card">
+
+                    <img
+                        src="images/menu-dessert.jpg"
+                        alt="韓国風デザート"
+                    >
+
+                    <div class="menu-card-content">
+
+                        <h3>
+                            Injeolmi Toast
+                        </h3>
+
+                        <p>
+                            きな粉とお餅を使った
+                            韓国風トースト。
+                        </p>
+
+                        <span class="price">
+                            ¥780
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- MENU 03 -->
+
+                <div class="menu-card">
+
+                    <img
+                        src="images/menu-cake.jpg"
+                        alt="韓国風ケーキ"
+                    >
+
+                    <div class="menu-card-content">
+
+                        <h3>
+                            Strawberry Cake
+                        </h3>
+
+                        <p>
+                            季節のいちごを使った
+                            やさしい甘さのケーキ。
+                        </p>
+
+                        <span class="price">
+                            ¥720
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             GALLERY
+        ========================== -->
+
+        <section id="gallery">
+
+            <div class="section-title">
+
+                <span>OUR MOMENTS</span>
+
+                <h2>
+                    Gallery
+                </h2>
+
+            </div>
+
+
+            <div class="gallery">
+
+                <img
+                    src="images/gallery01.jpg"
+                    alt="カフェの店内"
+                >
+
+                <img
+                    src="images/gallery02.jpg"
+                    alt="カフェラテ"
+                >
+
+                <img
+                    src="images/gallery03.jpg"
+                    alt="韓国スイーツ"
+                >
+
+                <img
+                    src="images/gallery04.jpg"
+                    alt="カフェのテーブル"
+                >
+
+                <img
+                    src="images/gallery05.jpg"
+                    alt="カフェのインテリア"
+                >
+
+                <img
+                    src="images/gallery06.jpg"
+                    alt="コーヒー"
+                >
+
+                <img
+                    src="images/gallery07.jpg"
+                    alt="デザート"
+                >
+
+                <img
+                    src="images/gallery08.jpg"
+                    alt="カフェの雰囲気"
+                >
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ACCESS
+        ========================== -->
+
+        <section id="access" class="access">
+
+            <div class="section-title">
+
+                <span>COME VISIT US</span>
+
+                <h2>
+                    Access
+                </h2>
+
+            </div>
+
+
+            <div class="access-info">
+
+                <p>
+                    📍 〒150-0001
+                </p>
+
+                <p>
+                    東京都渋谷区神宮前 1-2-3
+                </p>
+
+                <p>
+                    JR原宿駅から徒歩7分
+                </p>
+
+                <p>
+                    OPEN 11:00 - 20:00
+                </p>
+
+                <p>
+                    CLOSED : Tuesday
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="logo">
+            SEOUL MELLOW
+        </div>
+
+        <p>
+            서울의 작은 카페
+        </p>
+
+        <p>
+            © 2026 SEOUL MELLOW
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+*/
